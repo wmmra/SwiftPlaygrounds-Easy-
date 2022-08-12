@@ -1,0 +1,23 @@
+func turnRight() {
+  for i in 1 ... 3 {
+    turnLeft()
+  }
+}
+
+/* Repetitive tasks like this should be made into functions */
+moveForward()
+turnRight()
+/* .. */
+
+moveForward()
+turnRight()
+moveForward()
+moveForward()
+turnRight()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+turnRight()
+moveForward()
+toggleSwitch()
