@@ -1,0 +1,61 @@
+/* There are two ways to solve this puzzle, the way they "want" you to solve it, and a more creative way. They are presented respectively. */
+
+func collectAndToggle() {
+  collectGem()
+  moveForward()
+  toggleSwitch()
+}
+
+moveForward()
+collectAndToggle()
+
+moveForward()
+turnLeft()
+
+moveForward()
+collectAndToggle()
+
+moveForward()
+moveForward()
+turnLeft()
+
+moveForward()
+collectAndToggle()
+
+moveForward()
+turnLeft()
+
+moveForward()
+collectAndToggle()
+  
+
+/* The "functionier" way */
+
+func collectAndToggle() {
+  collectGem()
+  moveForward()
+  toggleSwitch()
+}
+
+func upCollectToggle() {
+  moveForward()
+  collectAndToggle()
+}
+upCollectToggle()
+
+moveForward()
+turnLeft()
+
+upCollectToggle()
+
+moveForward()
+moveForward()
+turnLeft()
+
+upCollectToggle()
+
+moveForward()
+turnLeft()
+
+upCollectToggle()
+
