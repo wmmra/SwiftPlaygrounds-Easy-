@@ -1,0 +1,8 @@
+/* The intro to For loops is a simple loop */
+
+for i in 1 ... 3 {
+  moveForward()
+  moveForward()
+  collectGem()
+  moveForward()
+}
