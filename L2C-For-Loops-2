@@ -1,0 +1,9 @@
+/* The 2nd challenge is to create a loop around a given set of instructions */
+for i in 1 ... 4 {
+    moveForward()
+    collectGem()
+    moveForward()
+    moveForward()
+    moveForward()
+    turnRight()
+}
