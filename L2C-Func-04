@@ -1,0 +1,30 @@
+/* Given function */
+
+func collectGemTurnAround() {
+
+  moveForward()
+  moveForward()
+  collectGem()
+  turnLeft()
+  turnLeft()
+  moveForward()
+  moveForward()
+}
+
+/* My solutions */
+
+func solveRow() {
+  for i in 1 ... 2 {
+      collectGemTurnAround()
+
+  }
+  turnRight()
+  moveForward()
+  turnLeft()
+}
+
+/* Main Loop */
+
+for i in 1 ... 3 {
+    solveRow()
+}
