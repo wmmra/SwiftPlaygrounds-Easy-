@@ -1,0 +1,27 @@
+/* This is one sample solution, it works however has an extra step at the end. */
+
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+
+func clearFourGems() {
+    moveForward()
+    moveForward()
+    turnAround()
+    collectGem()
+    moveForward()
+    turnRight()
+    moveForward()
+    turnAround()
+    
+    for i in 1 ... 3 {
+        
+        collectGem()
+        moveForward()
+    }
+}
+for i in 1 ... 4 {
+    
+    clearFourGems()
+}
