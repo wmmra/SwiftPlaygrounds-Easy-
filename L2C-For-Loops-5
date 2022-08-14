@@ -1,0 +1,23 @@
+func sevenSteps() {
+    for i in 1 ... 7 {
+        moveForward()
+    }
+}
+func twoStepRight() {
+    moveForward()
+    moveForward()
+    turnRight()
+}
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+
+for i in 1 ... 3 {
+    twoStepRight()
+    sevenSteps()
+    toggleSwitch()
+    turnAround()
+    sevenSteps()
+    turnRight()
+}
